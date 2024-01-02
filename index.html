@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know your Macros</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="macros.js"></script>
+</head>
+
+<body>
+    <h1>Know your Macros</h1>
+    <label for="foodInput">Enter a food:</label>
+    <input type="text" id="foodInput" placeholder="e.g., 1lb brisket and fries">
+
+    <label for="macronutrientSelect">Select a Macronutrient:</label>
+    <select id="macronutrientSelect">
+        <option value="calories">Calories</option>
+        <option value="fat_total_g">Total Fat</option>
+        <option value="protein_g">Protein</option>
+        <option value="carbohydrates_total_g">Carbohydrates</option>
+    </select>
+
+    <button id="searchButton">Search</button>
+
+    <div id="resultContainer">
+        <!-- Results will be displayed here -->
+    </div>
+</body>
+
+</html>

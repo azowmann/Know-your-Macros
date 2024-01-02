@@ -1,0 +1,10 @@
+{
+    "name": "Know your Macros",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Chrome extension to quickly return a foods macronutrients",
+    "action": {
+        "default_icon": "icon.jpg",
+        "default_popup": "index.html"
+    }
+}
