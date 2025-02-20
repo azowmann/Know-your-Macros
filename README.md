@@ -39,3 +39,12 @@ This extension uses the API-Ninjas Nutrition API. The API key is embedded in mac
 const apiKey = 'YOUR_NEW_API_KEY_HERE';
 ```
 3. Save the file and reload the extension in Chrome.
+
+## Dependencies
+- jQuery
+
+## Potential Improvements
+- Enhance UI/UX for a better user experience.
+- Allow users to view all macronutrients at once.
+- Improve error handling and display more informative messages.
+- Add local storage to save past searches.
