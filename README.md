@@ -7,7 +7,7 @@ Know Your Macros is a simple Chrome extension that allows users to quickly look 
 ## Features
 - Search for any food item and get its macronutrient breakdown.
 - Choose a specific macronutrient to focus on (Calories, Fat, Protein, Carbohydrates).
-- Fetches real-time nutritional data using the API-Ninjas Nutrition API.
+- Fetches real-time nutritional data using the [API-Ninjas Nutrition API](https://www.api-ninjas.com/api/nutrition).
 - Easy-to-use interface within a Chrome extension popup.
 
 ## Installation
@@ -32,7 +32,7 @@ Know Your Macros is a simple Chrome extension that allows users to quickly look 
 - **icon.jpg**: The icon used for the extension.
 
 ## API Key Configuration
-This extension uses the API-Ninjas Nutrition API. The API key is embedded in macros.js. If you need to replace it:
+This extension uses the [API-Ninjas Nutrition API](https://www.api-ninjas.com/api/nutrition). The API key is embedded in macros.js. If you need to replace it:
 1. Sign up on API-Ninjas and obtain an API key.
 2. Open macros.js and update the following line:
 ```
@@ -41,7 +41,7 @@ const apiKey = 'YOUR_NEW_API_KEY_HERE';
 3. Save the file and reload the extension in Chrome.
 
 ## Dependencies
-- jQuery
+- [jQuery](https://code.jquery.com/jquery-3.6.4.min.js)
 
 ## Potential Improvements
 - Enhance UI/UX for a better user experience.
