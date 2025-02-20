@@ -30,3 +30,11 @@ Know Your Macros is a simple Chrome extension that allows users to quickly look 
 - **macros.js**: Contains the JavaScript logic for handling API requests and updating the UI.
 - **manifest.json**: The manifest file required for Chrome extensions to define metadata and permissions.
 - **icon.jpg**: The icon used for the extension.
+
+## API Key Configuration
+This extension uses the API-Ninjas Nutrition API. The API key is embedded in macros.js. If you need to replace it:
+1. Sign up on API-Ninjas and obtain an API key.
+2. Open macros.js and update the following line:
+```const apiKey = 'YOUR_NEW_API_KEY_HERE';
+```
+3. Save the file and reload the extension in Chrome.
