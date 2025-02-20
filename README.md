@@ -24,7 +24,7 @@ Know Your Macros is a simple Chrome extension that allows users to quickly look 
 4. Click the Search button to retrieve the nutritional data.
 5. View the results displayed in the popup.
 
-
+## KnowYourMacros Directory Structure
 ### File Descriptions:
 - **index.html**: The main user interface of the Chrome extension.
 - **macros.js**: Contains the JavaScript logic for handling API requests and updating the UI.
