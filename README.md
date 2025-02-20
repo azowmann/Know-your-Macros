@@ -48,3 +48,7 @@ const apiKey = 'YOUR_NEW_API_KEY_HERE';
 - Allow users to view all macronutrients at once.
 - Improve error handling and display more informative messages.
 - Add local storage to save past searches.
+
+## Acknowledgements:
+- [API-Ninjas](https://api-ninjas.com/) for providing the Nutrition API.
+- jQuery for simplifying JavaScript interactions.
